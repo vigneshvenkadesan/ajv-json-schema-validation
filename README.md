@@ -14,3 +14,24 @@ Please also check out my website at [jangoebel.com](https://jangoebel.com)
 
 1. `npm i`
 2. `npm run dev` starts up a hot-reload express webserver on port 8080
+
+Sample Json request:
+     {   
+        "name": {
+        	"firstName":"vign",
+        	"lastName":"123"
+        },
+        "dependents":{
+        "dep1": {
+        	"firstName":"vign",
+        	"lastName":"123"
+        },  
+        "dep2": {
+        	"firstName":"vign",
+        	"lastName":"123"
+        }
+        },
+        "email": "12@gmail.com",
+        "dob": "01-09-1999",
+        "countryCode": "CA"
+     }
